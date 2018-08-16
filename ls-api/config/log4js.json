@@ -1,0 +1,58 @@
+{
+  "appenders": {
+    "debug": {
+      "type": "file",
+      "filename": "./logs/http/debug.log",
+      "maxLogSize": 104857600,
+      "numBackups": 3
+    },
+    "access": {
+      "type": "file",
+      "filename": "./logs/http/access.log",
+      "maxLogSize": 104857600,
+      "numBackups": 20
+    },
+    "info": {
+      "type": "file",
+      "filename": "./logs/http/info.log",
+      "maxLogSize": 104857600,
+      "numBackups": 20
+    },
+    "error": {
+      "type": "file",
+      "filename": "./logs/http/errors.log",
+      "maxLogSize": 104857600,
+      "numBackups": 20
+    },
+    "default": {
+      "type": "file",
+      "filename": "./logs/http/default.log",
+      "maxLogSize": 104857600,
+      "numBackups": 3
+    }
+  },
+  "categories": {
+    "debug": {
+      "appenders": ["debug"],
+      "level": "DEBUG"
+    },
+    "info": {
+      "appenders": ["info"],
+      "level": "DEBUG"
+    },
+    "error": {
+      "appenders": ["error"],
+      "level": "DEBUG"
+    },
+    "access": {
+      "appenders": ["access"],
+      "level": "DEBUG"
+    },
+    "default": {
+      "appenders": ["default"],
+      "level": "DEBUG"
+    }
+  },
+  "pm2": true,
+  "disableClustering": true
+}

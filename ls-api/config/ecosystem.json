@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "ls-http-fork",
+      "watch": true,
+      "ignore_watch": ["node_modules", "logs", "test","doc"],
+      "script": "./dist/www.js",
+      "error_file": "./logs/pm2/err.log",
+      "out_file": "./logs/pm2/out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "env": { "NODE_ENV": "production", "PORT": 8002 }
+    },
+    {
+      "name": "ls-http-cluster",
+	  "watch": true,
+      "ignore_watch": ["node_modules", "logs", "test","doc"],
+      "script": "./dist/www.js",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "error_file": "./logs/pm2/err.log",
+      "out_file": "./logs/pm2/out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "env": { "NODE_ENV": "production", "PORT": 8002 }
+    }
+  ]
+}

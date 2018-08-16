@@ -1,0 +1,64 @@
+code                    codeNo
+
+Error(900-989)
+General
+unkownError            900
+uncaughtError          901
+uncaughtException      902
+configureError         903
+nullValue              905
+unkownType             906
+unkownData             907
+dataParseError         908
+computeError            909
+jsonParseError         910
+jsonPackError          911
+fileOpenError          912
+fileReadError          913
+fileWriteError         914
+DllError               915
+
+
+
+database
+dbUnkownError           920
+dbConnectError          921              
+dbQueryError            922
+userIdOrCodeError       923
+userIdUnkown             924
+codeError               925
+idExisted               926
+queryNull               927
+deviceUnkown            928
+privilegeError          929
+
+
+http
+unkownError             930
+unkownType              931
+httpMonit               932
+
+tcp
+unkownError             940
+
+info(960-999)
+success                 960
+userAccess              961
+login                   962
+register                963
+unregister              964
+userSet                 965
+
+track                   970
+trackLatest                  971
+trackHistory                 972
+locate                  973
+locateSave                    974
+locateCompute                 975
+manage                  976
+add                    977
+alter                  978
+delete                  979
+select                  980
+config                  981
+            

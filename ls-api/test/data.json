@@ -1,0 +1,155 @@
+{
+  "list": [
+    "genenal",
+    "server",
+    "user",
+    "device",
+    "register",
+    "unregister",
+    "error",
+    "locate",
+    "track",
+    "beacon",
+    "wifi",
+    "lbs",
+    "manage",
+    "raw"
+  ],
+  "general": {
+    "type": "type",
+    "state": "flase",
+    "message": "message"
+  },
+  "server": {
+    "system": "windows 7",
+    "software": "UPVT 1.1",
+    "company": "SmartSpace",
+    "location": "beijing"
+  },
+  "user": {
+    "type": "user/aircraft/car/truck/bike/cart",
+    "subType": "save/compute/saveAndCompute",
+    "id": "maogang",
+    "code": "e10adc3949ba59abbe56e057f20f883e"
+  },
+  "regist": {
+    "type": "user/beacon/gnss/wifi/aircraft/truck/car/bike/cart",
+    "id": "maogang",
+    "code": "e10adc3949ba59abbe56e057f20f883e",
+    "phone": "phone",
+    "email": "email",
+    "privilege": "user/tracker/admin",
+    "regist_code": "e10adc3949ba59abbe56e057f20f893e"
+  },
+  "error": {
+    "code": "code",
+    "codeNo": "number",
+    "type": "type",
+    "syscall": "syscall",
+    "message": "message"
+  },
+    "pos": [
+      {
+        "id": "id",
+        "lati": 42.12345,
+        "longi": -117.23456,
+        "accuracy": 1.5,
+        "alti": 34.234,
+        "altitudeAccuracy": 2.5,
+        "heading": 30.8,
+        "velocity": 12.9,
+        "deviceType": "deviceType",
+        "locateType": "BLE,WIFI,LBS,GNSS"
+      }
+    ],
+    "timestamp": "2018-3-27 17:06:48",
+  "track": {
+    "type": "history/latest",
+    "deviceType": "user/aircraft/truck/car/bike/cart",
+    "id": ["__all/id"],
+    "zone": [42.12345, -117.23456, 34.234, 42.12345, -117.23456, 34.234],
+    "timestamp": "2018-3-27 17:06:48@2018-3-27 17:06:48"
+  },
+  "beacon": [
+    {
+      "id": "B9407F30F5F8466EAFF925556B57FE60",
+      "rssi": -60,
+      "calibration": -45,
+      "soc": 30,
+      "scanTime": -333
+    }
+  ],
+  "timestamp": "2018-3-27 17:06:48",
+  "lbs": [
+    {
+      "mcc": "460",
+      "mnc": "00",
+      "lac": "111",
+      "cell": "34",
+      "timestamp": "2018-3-27 17:06:48"
+    }
+  ],
+  "device": [
+    {
+      "type": "user/beacon/wifi/car",
+      "id": "B9407F30F5F8466EAFF925556B57FE60",
+      "lati": 12.34512345,
+      "longi": 112.25478971,
+      "accuracy": 12.445,
+      "alti": 4.256,
+      "alti_accuracy": 0.256,
+      "calibration": -61,
+      "soc": 99,
+      "location": "嘉华大厦",
+      "company": "smartspace",
+      "info": "test",
+      "regist_code": "e10adc3949ba59abbe56e057f20f883e"
+    }
+  ],
+  "insert": [
+    {
+      "type": "user/beacon/wifi/car",
+      "id": "B9407F30F5F6",
+      "lati": 12.34512345,
+      "longi": 112.25478971,
+      "accuracy": 12.445,
+      "alti": 4.256,
+      "alti_accuracy": 0.256,
+      "calibration": -61,
+      "soc": 99,
+      "location": "嘉华大厦",
+      "company": "smartspace",
+      "info": "test",
+      "regist_code": "e10adc3949ba59abbe56e057f20f883e"
+    }
+  ],
+  "select": {
+    "type": "user/beacon/wifi/aircraft/truck/car/bike/cart",
+    "id": ["__all/id"]
+  },
+  "delete": {
+    "type": "user/beacon/wifi/aircraft/truck/car/bike/cart",
+    "id": ["__all/id"]
+  },
+  "update": [
+    {
+      "type": "user/beacon/wifi/car",
+      "id": "B9407F30F5F6",
+      "lati": 12.34512345,
+      "longi": 112.25478971,
+      "accuracy": 12.445,
+      "alti": 4.256,
+      "alti_accuracy": 0.256,
+      "calibration": -61,
+      "soc": 99,
+      "location": "嘉华大厦",
+      "company": "smartspace",
+      "info": "test",
+      "regist_code": "e10adc3949ba59abbe56e057f20f883e"
+    }
+  ],
+  "raw": {
+    "type": ["apple"],
+    "data": ["1254866a584"]
+  }
+}

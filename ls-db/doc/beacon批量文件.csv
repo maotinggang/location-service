@@ -1,0 +1,3 @@
+id,lati,longi,accuracy,alti,alti_accuracy,calibration,soc,location,type,company,info,regist_code
+test,123.123,234.234,1.23,45.6,1.23,-61,99,china,beacon,smartspace,my beacon,test
+test2,223.123,334.234,,,,-61,,,beacon,,,test

@@ -1,0 +1,1 @@
+pm2 start ./config/ecosystem.json --only ls-http-cluster

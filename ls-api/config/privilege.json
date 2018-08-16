@@ -1,0 +1,20 @@
+{
+  "user": {
+    "isDataBase": true,
+    "saveTime": 3,
+    "queryTime": 1,
+    "compute": true
+  },
+  "tracker": {
+    "isDataBase": true,
+    "saveTime": 6,
+    "queryTime": 3,
+    "compute": false
+  },
+  "admin": {
+    "isDataBase": true,
+    "saveTime": 12,
+    "queryTime": 12,
+    "compute": true
+  }
+}

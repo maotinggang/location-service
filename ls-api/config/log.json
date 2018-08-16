@@ -1,0 +1,14 @@
+{
+  "isLog": true,
+  "isAccess": true,
+  "isInfo": true,
+  "isWarn": true,
+  "isError": true,
+  "isDebug": false,
+  "level": 0,
+  "code": true,
+  "codeNo": true,
+  "type": true,
+  "sysCall": true,
+  "message": true
+}
